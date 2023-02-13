@@ -10,4 +10,5 @@ freebsd_task:
   maven_cache:
     folder: ~/.m2
   install_script: pkg install -y openjdk11
+  scscscs
   test_script: ./mvnw test -Djacoco.skip=true -B
